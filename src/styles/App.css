@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+main {
+  margin-left: 240px;
+  /* Adjust according to sidebar width */
+  padding: 16px;
+}
+
+.MuiDrawer-paper {
+  width: 240px;
+  /* Sidebar width */
+}
+
+.MuiAppBar-root {
+  z-index: 1400;
+  /* Ensure header is above sidebar */
+}
+
+.MuiToolbar-root {
+  display: flex;
+  justify-content: space-between;
+}
